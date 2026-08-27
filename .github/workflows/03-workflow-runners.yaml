@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Show OS
-        shell: bash
+        shell: pwsh
         run: "This job is running on a Windows runner."
 
   mac-echo:
