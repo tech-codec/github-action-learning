@@ -7,7 +7,7 @@ on:
     inputs:
       debug:
         type: boolean
-        default: false
+        default: true
 
 run-name: 06 - Contexts | DEBUG - ${{ inputs.debug }}
 
