@@ -1,0 +1,17 @@
+name: 04 - Using Actions
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 04-using-actions
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v7
+
+      - name: 04-using-actions
+        run: tree
