@@ -37,7 +37,7 @@ jobs:
 
       - name: Perform some tests
         run: |
-          node -e setTimeout(()=>{}, 10000)
+          node -e "setTimeout(() => {}, 10000)"
           echo "Running tests on OS ${{ runner.os }} and NodeJS ${{ matrix.node-version }}"
 
       - name: Upload test results
